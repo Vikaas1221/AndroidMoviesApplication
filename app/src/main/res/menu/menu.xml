@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/movies"
+        android:enabled="true"
+        android:iconTint="@android:color/white"
+        android:icon="@drawable/ic_action_video_library"
+        android:title="@string/movies">
+
+    </item>
+    <item
+        android:id="@+id/tvshows"
+        android:enabled="true"
+        android:iconTint="@android:color/white"
+        android:icon="@drawable/ic_action_laptop_chromebook"
+        android:title="@string/tvshows">
+
+    </item>
+    <item
+        android:id="@+id/favourites"
+        android:enabled="true"
+        android:iconTint="@android:color/white"
+        android:icon="@drawable/ic_action_bookmarks"
+        android:title="@string/favourite">
+
+    </item>
+
+</menu>

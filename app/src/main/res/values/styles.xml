@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="textStyle">
+        <item name="android:layout_marginLeft">@dimen/_5sdp</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+    </style>
+    <style name="textStylelogo">
+        <item name="android:layout_marginLeft">@dimen/_5sdp</item>
+        <item name="android:textSize">@dimen/_23sdp</item>
+        <item name="android:textColor">@color/mtplayer</item>
+        <item name="android:text">MTPLAYER</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+    <style name="FrgamentHeadingTextStyle">
+
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+        <item name="android:layout_marginLeft">@dimen/_5sdp</item>
+        <item name="android:layout_marginTop">@dimen/_5sdp</item>
+        <item name="android:textSize">@dimen/_23sdp</item>
+    </style>
+    <style name="RecyclerviewStyle">
+        <item name="android:layout_marginLeft">@dimen/_5sdp</item>
+        <item name="android:layout_marginTop">@dimen/_5sdp</item>
+        <item name="android:layout_marginRight">@dimen/_5sdp</item>
+    </style>
+    <style name="seeMore">
+        <item name="android:textColor">@color/seemore</item>
+        <item name="android:text">SEE MORE</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+
+    </style>
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="navItemStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+
+
+
+</resources>

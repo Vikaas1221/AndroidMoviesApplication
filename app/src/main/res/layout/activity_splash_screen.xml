@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="@dimen/_80sdp"
+        android:src="@drawable/ic_mt_player"
+        android:contentDescription="@string/image"
+        android:layout_height="@dimen/_80sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            style="@style/textStylelogo"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</FrameLayout>

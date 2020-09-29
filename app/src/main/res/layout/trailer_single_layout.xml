@@ -1,0 +1,37 @@
+<LinearLayout android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<!--    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--        android:id="@+id/now_playing_movie_image"-->
+<!--        android:layout_width="@dimen/_90sdp"-->
+<!--        android:layout_margin="@dimen/_5sdp"-->
+<!--        android:layout_height="@dimen/_90sdp"-->
+<!--        app:civ_border_width="2dp"-->
+<!--        app:civ_border_color="@color/colorPrimary" />-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_100sdp"
+        app:cardElevation="@dimen/_5sdp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="@dimen/_5sdp"
+        android:layout_height="@dimen/_140sdp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/now_playing_movie_image"
+            android:contentDescription="@string/image"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:layout_width="match_parent"
+        style="@style/textStyle"
+        android:gravity="center_horizontal"
+        android:id="@+id/movieName"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

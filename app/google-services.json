@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "944998411469",
+    "firebase_url": "https://moviesdbapp-dbaeb.firebaseio.com",
+    "project_id": "moviesdbapp-dbaeb",
+    "storage_bucket": "moviesdbapp-dbaeb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944998411469:android:7a322e5a3484fff83d8d84",
+        "android_client_info": {
+          "package_name": "com.example.moviesdbapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944998411469-d7i375mlfthjknco0a4eum9t13vs4uje.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moviesdbapp",
+            "certificate_hash": "0fb87abe1b2bdd8dd19cae8b66a86d1392018004"
+          }
+        },
+        {
+          "client_id": "944998411469-r7b85t04o88nvkqiqdr1arf007j5ufvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLbWCHaTEfWubkD5yc-l7O5QsyxPF7c4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944998411469-r7b85t04o88nvkqiqdr1arf007j5ufvr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
